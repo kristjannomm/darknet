@@ -1,6 +1,7 @@
 #!/bin/sh
-echo Installing darknet from https://github.com/AlexeyAB/darknet.git
+echo Downloading darknet from https://github.com/AlexeyAB/darknet.git
 echo
+cd ~
 git clone https://github.com/AlexeyAB/darknet.git
 echo
 echo Installing CUDA
