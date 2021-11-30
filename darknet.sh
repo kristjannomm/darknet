@@ -25,6 +25,10 @@ sudo apt-get install python3-dev python3-tk python-imaging-tk -y
 sudo apt-get install libgtk-3-dev -y
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt update -y
+#
+sudo apt install python3-opencv
+sudo apt install libopencv-dev
+
 echo
 echo Installing CUDA toolkit
 echo
